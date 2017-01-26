@@ -46,13 +46,13 @@
 + biggest user of TPUs at google
 
 ### NMT give significant improvements
-+ human side-by-side (SxS) improvement of >0.1 is significant
-  + >0.1 => definitely launchable
-  + >0.1 => improvement would take months to achieve before
++ human side-by-side (SxS) improvement of +>0.1 is significant
+  + +>0.1 => definitely launchable
+  + +>0.1 => improvement would take months to achieve before
 + first language pair launched
-  + chinese -> english got SxS for +0.6
+  + chinese -> english got SxS for +>0.6
   + improvement as big as all improvements in the last 10 years
-+ now almost all languagees +0.5 and some up to +1.0
++ now almost all languagees +>0.5 and some up to +>1.0
 
 ## What do you do with sequence models (RNNs)
 
@@ -105,11 +105,11 @@
 + simplest case very similar to byte pair encodeing (BPE)
 ### WPM example
 + segmentation
-  + add understaore before words then segment using trained wpm model
+  + add underscore before words then segment using trained wpm model
     + this is a house => _Th is_is a house
-+ TODO: look up WPM example
++ *TODO: look up WPM example
 + particularly useful for morphologically rich languages (Ru, De, Ja, Ko, etc)
-+ they now use WPM model for 32k words.
++ they now use WPM model for 32k words
 + use of WPM improves machine translation measure (BLEU) and lowers latency
 
 ## Speed-up with TPU's
@@ -124,7 +124,7 @@
 + 10sec/sentence -> 200ms/sentence
 
 ### Quantization range boundaries simulated during training
-+ model can be quantized without loss of tranlsation quality
++ model can be quantized without loss of translation quality
 + no other training restrictions necessary
 
 ### Quantized inference using TPU
@@ -142,12 +142,12 @@
 + model trained on both can be fed a sentence mixture of two languages and have it translated to a third language
 
 ### Interlingua?
-+ sentences with same meaning mapped to similar regions regarless of language!
++ sentences with same meaning mapped to similar regions regardless of language!
 
 ## Challenges
 
 ### early cutoff
-+ cuts off or dops some words in source sentence
++ cuts off or drops some words in source sentence
 #### broken dates/numbers
 + 5->6
 + but on average significantly better than pbmt on  numbers
