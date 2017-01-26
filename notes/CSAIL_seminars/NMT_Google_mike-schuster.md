@@ -20,6 +20,8 @@
 + removes drawback by giving accesss to all encoder states
 + tranlsation quality now independent of sentences length
 
+![](https://github.com/markostam/sandbox/blob/master/photos/IMG_3368.jpg?raw=true)
+
 ### Timeline of Google Brain work on NMT
 #### 9/2015
 + tried to replicate results of these papers, couldn't do it
@@ -79,6 +81,9 @@
 
 ## Google BNMT Architecture
 + 8-layer encoder/decoder with atention and residual skip-connections
+
+![](https://github.com/markostam/sandbox/blob/master/photos/IMG_3369.jpg?raw=true)
+
 + each layer is on one gpu (8x GPUSs/ machine).
   + they chose 8 layers based on the number of GPU's per machine
   + encoder and decoder are on separate machines
