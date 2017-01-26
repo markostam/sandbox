@@ -84,7 +84,7 @@
   + encoder and decoder are on separate machines
 
 ### model training
-  + runs on ~100 GPUS (12 replicas8 gpus each)
+  + runs on ~100 GPUS (12 replicas (for ensembling) 8 gpus each)
   + only 32k words
   + because softmax size only 32k can be fully calculated ( no sampling))
 + optimization
