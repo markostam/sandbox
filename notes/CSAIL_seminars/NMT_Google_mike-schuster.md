@@ -1,4 +1,4 @@
-# Neraul Machine Translation and other AI Projects at Google
+# Neural Machine Translation and other AI Projects at Google
 
 + mike schuster - google brain
 + schuster@google.com
@@ -6,7 +6,7 @@
 
 ## Quick History
 
-### various people tried to imporve translation with NN's
+### various people tried to improve translation with NN's
 + brain team
 + translate team
 
@@ -20,29 +20,30 @@
 + removes drawback by giving accesss to all encoder states
 + tranlsation quality now independent of sentences length
 
-### 9/2015
+### Timeline of Google Brain work on NMT
+#### 9/2015
 + tried to replicate results of these papers, couldn't do it
 
-### 1/2016
+#### 1/2016
 + first SOTA results on WMT database
 
-### 2/2016
+#### 2/2016
 + first production data results
 + more people from brain and translate got involved to productionize NMT
 
-### 9/2016
+#### 9/2016
 + first language chinese->en launched
 + paper with full description GNMT on arxic
 
-### 11/15/2016
+#### 11/15/2016
 + 16 language paries launched on translate
 + multilingual GNMT on arXiv
+
+## Production Quality
 
 ### Production traffic
 + billions of sentences per day (and growing)
 + biggest user of TPUs at google
-
-## Production Quality
 
 ### NMT give significant improvements
 + human side-by-side (SxS) improvement of >0.1 is significant
