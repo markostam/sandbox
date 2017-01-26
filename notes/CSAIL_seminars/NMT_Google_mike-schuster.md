@@ -146,8 +146,12 @@
 + due to transfer learning
 + model trained on both can be fed a sentence mixture of two languages and have it translated to a third language
 
+![](https://github.com/markostam/sandbox/blob/master/photos/IMG_3372.jpg?raw=true)
+
 ### Interlingua?
 + sentences with same meaning mapped to similar regions regardless of language!
+
+![](https://github.com/markostam/sandbox/blob/master/photos/IMG_3373.jpg?raw=true)
 
 ## Challenges
 
@@ -182,6 +186,6 @@
 + RL (and similar) already running but no significant gains at moment
 
 ### BNMT for other projects
-+ other projects using same codebase for diifferent problems (search, google assistant, etc etc)
++ *other projects using same codebase for diifferent problems (search, **google assistant**, etc etc)*
 + at least 10k gpu's running BNMT every day
 
