@@ -35,11 +35,11 @@
 
 #### 9/2016
 + first language chinese->en launched
-+ paper with full description GNMT on arxic
++ paper with full description BNMT on arxic
 
 #### 11/15/2016
 + 16 language paries launched on translate
-+ multilingual GNMT on arXiv
++ multilingual BNMT on arXiv
 
 ## Production Quality
 
