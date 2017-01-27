@@ -3,6 +3,7 @@
 + mike schuster - google brain
 + schuster@google.com
 + g.co/brain
++ [recent paper on the work described here](https://arxiv.org/abs/1609.08144)
 
 ## Quick History
 
