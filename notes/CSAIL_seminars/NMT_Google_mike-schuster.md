@@ -14,7 +14,7 @@
 + SOTA on WMT en>FR 
 + learned without explicit alignment
 + drawback: all information needs to be carried in internal state
-  + breaks fown for long sentences
+  + breaks down for long sentences
 
 ### attention based models (2014)
 + removes drawback by giving accesss to all encoder states
@@ -24,7 +24,7 @@
 
 ### Timeline of Google Brain work on NMT
 #### 9/2015
-+ tried to replicate results of these papers, couldn't do it
++ tried to replicate results of the above papers, couldn't do it. REPRODUCIBILITY :)
 
 #### 1/2016
 + first SOTA results on WMT database
@@ -35,10 +35,10 @@
 
 #### 9/2016
 + first language chinese->en launched
-+ paper with full description BNMT on arxic
++ paper with full description BNMT on arXiv
 
 #### 11/15/2016
-+ 16 language paries launched on translate
++ 16 language pairs launched on translate
 + multilingual BNMT on arXiv
 
 ## Production Quality
@@ -54,7 +54,7 @@
 + first language pair launched
   + chinese -> english got SxS for +>0.6
   + improvement as big as all improvements in the last 10 years
-+ now almost all languagees +>0.5 and some up to +>1.0
++ now almost all languages +>0.5 and some up to +>1.0
 
 ## What do you do with sequence models (RNNs)
 
@@ -69,7 +69,7 @@
 
 ### image captioning
 + combine with CNN as shown by andrej karpathy
-+ they tested this internally at google and learned that the system was limited: it just started spitting the same stuff eventually.
++ they tested this internally at google by opening a a site where employees could upload any photo and learned that the system was actually pretty limited. it just started spitting the same stuff eventually.
 
 ## deep sequence to sequence (old model)
 + 4 layer deep LSTM encoder/decoder
@@ -91,20 +91,21 @@
 ### model training
   + runs on ~100 GPUS (12 replicas (for ensembling) 8 gpus each)
   + only 32k words
-  + because softmax size only 32k can be fully calculated ( no sampling))
+  + because softmax size only 32k can be fully calculated (no sampling))
 + optimization
-  + combination of Adam an dSGD wiht delayed exponential decay
+  + combination of Adam an SGD wiht delayed exponential decay.
+    + first Adam then SGD
   + 128/256 sentence pairs combined into one batch
 + training time
   + ~1 week for 2.5m steps = ~300m sentence pairs
-  + for example, on english->french we use only 15% of available data
+  + for example, on english->french they use only 15% of available data.
   + they have more than enough data. this is infinite data to them.
 
 ### Wordpiece Model (WPM)
 + Data-driven bottom-up segmenter (trained once on example data)
   + produces predetermined number of units to represent any word possible
   + no UNK (unkonwn word) anymore
-  + frequenc words become full units, rare words split up
+  + frequency words become full units, rare words split up
 ### Training criterion
 + max liklihood on training data given evolving word definition
 + simplest case very similar to byte pair encodeing (BPE)
@@ -122,10 +123,10 @@
 ### decoding speed used to be a major launch blocker
 + TPU is the only viable option (~300M model parameters total)
 + quantization error
-+ some bugs (quantization errors and a lot more)
-+ many restrictions (memory, etc
++ lots of bugs (quantization errors, flaky hardware and a lot more) - this sounded painful
++ many restrictions (memory, etc)
 
-### speedup (TPU, algorithms, etc)
+### ... but in the end: speedup (TPU, algorithms, etc)
 + 10sec/sentence -> 200ms/sentence
 
 ### Quantization range boundaries simulated during training
@@ -135,10 +136,10 @@
 ### Quantized inference using TPU
 + matmul is in 8 bits all other in 16 bits to work
 + attention is on CPU
-+ Quantization actually helps quality (maybe regularization)
++ Quantization actually helps accuraty (maybe regularization?)
 
 ### Latency
-+ latency increased by roughly a factor of 3x
++ latency increased by roughly a factor of 3x from BMT
 + still was ok - people dont care as long as its within 300ms
 
 ## Multilingual model and Zero-Shot Translation
@@ -178,8 +179,8 @@
 + contexts (10yo translation different than 30yo)
 
 ### Better automatic measure and objective functions
-+ current BLEU weighss all words the same
-  + "president" more important than "the"
++ current BLEU weighs all words the same
+  + but in reality getting a word like "president" right is more important than "the" right
 + discriminative training
   + maximum liklihood produces mismatched training/test procedure
     + no decoding errors for max liklihood training
@@ -187,5 +188,5 @@
 
 ### BNMT for other projects
 + *other projects using same codebase for diifferent problems (search, **google assistant**, etc etc)*
-+ at least 10k gpu's running BNMT every day
++ at least 10k gpu's running BNMT code every day
 
