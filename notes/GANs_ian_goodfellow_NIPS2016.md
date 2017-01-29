@@ -71,6 +71,7 @@
   
 ### Taxonomy of generative models:
 
+<img src="https://github.com/markostam/sandbox/blob/master/photos/Screenshot%202017-01-29%2018.25.20.png?raw=true" width="500">
 + main split is over *explicit* or *implicit* density functions
 + **Explicit**: 
    + It can be challenging to design a paramaetric function that is TRACTABLE:
@@ -83,7 +84,5 @@
   + design a procedure than can draw samples from the probability distribution, even if we don't know it explicitly.
     + Markov Chain (general stochastic network)
     + Draw samples directly (GANs, deep moment matching networks), but don't necessarily represent a density function.
-
-<img src="https://github.com/markostam/sandbox/blob/master/photos/Screenshot%202017-01-29%2018.25.20.png?raw=true" width="500">
 
 ## Fully Visible Beliefe Nets
