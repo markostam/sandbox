@@ -43,4 +43,18 @@
 + RestNet and GAN both generate distribution that mimics that of the original and come out with something that is more visually pleasing and less blurry than the bicubic model.
 <img src="https://github.com/markostam/sandbox/blob/master/photos/Screenshot%202017-01-29%2017.51.38.png?raw=true" width="500">
 
+### iGAN
+
++ assists human in creating artwork.
++ draw a black line and green field and it will draw photo quality photo
+
+### Photo-realistic image editing
+
++ introspective adverserial network.
++ neural face-editing.
+
+### Image to Image translation
++ mapping from extracted edges to the real image (possible to create huge space of training data)
+<img src="https://github.com/markostam/sandbox/blob/master/photos/Screenshot%202017-01-29%2018.02.51.png?raw=true" width="500">
+
 
