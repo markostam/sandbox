@@ -61,4 +61,7 @@
 ## How do generative models work?
 
 ### Maximum Liklihood
-<img src=" https://github.com/markostam/sandbox/blob/master/photos/Screenshot%202017-01-29%2018.05.46.png?raw=true" width="400">
+
+<img src=" https://github.com/markostam/sandbox/blob/master/photos/Screenshot%202017-01-29%2018.05.46.png" width="400">
+
++ 
