@@ -17,3 +17,18 @@
 
 ## Why study generative modeling?
 
++ Hi dimensional probability distributions are a problem across many engineeinrg spaces.
++ Useful for RL: train your agent in an environment totally simulated by a GAN.
+  + easily parallelized
+  + mistakes not as costly as if trained in the physical world
++ Simulate possible future for planning or simulated RL
++ Able to handle missing data better:
+  + fill in missing inputs when labels are missing.
+  + semi-supervised leaning, create larger training sets
++ Multi-modal outputs
++ Realistic generation taskss.
+
+
+### Real World Generation tasks
+
++ Next video frame prediction (lotter et al 2016)
