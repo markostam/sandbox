@@ -62,8 +62,7 @@
 
 ### Maximum Liklihood
 
-<img src=" https://github.com/markostam/sandbox/blob/master/photos/Screenshot%202017-01-29%2018.05.46.png?raw=true" width="400">
-
++ <img src=" https://github.com/markostam/sandbox/blob/master/photos/Screenshot%202017-01-29%2018.05.46.png?raw=true" width="400">
 + Easy to compare models using maximum likelihood
 + We write a density function that the model describes: *p(x|θ)*
   + *p(x|θ)* is a function that takes parameters theta and input x that describes exactly where the data is spread thinly and where it concentrates.
