@@ -33,4 +33,4 @@
 
 + Next video frame prediction (lotter et al 2016)
   + GAN gives much better performance than MSE.
-  + ![](https://github.com/markostam/sandbox/blob/master/photos/Screenshot%202017-01-29%2017.32.45.png =300x)
+  + ![](https://github.com/markostam/sandbox/blob/master/photos/Screenshot%202017-01-29%2017.32.45.png =300x200)
