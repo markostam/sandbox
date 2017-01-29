@@ -86,3 +86,5 @@
     + Draw samples directly (GANs, deep moment matching networks), but don't necessarily represent a density function.
 
 ## Fully Visible Beliefe Nets
+
++ 
