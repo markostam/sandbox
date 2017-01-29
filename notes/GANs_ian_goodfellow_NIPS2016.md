@@ -34,3 +34,8 @@
 + Next video frame prediction (lotter et al 2016)
   + GAN gives much better performance than MSE.
   + <img src="https://github.com/markostam/sandbox/blob/master/photos/Screenshot%202017-01-29%2017.32.45.png" width="400">
+  + successfully predicts the ear and gives the eyes sharp edges
++ Single Image Super-Resolution (Ledig et al 2016)
+  + bicubic interpolation (hand designed mathematical formula) vs. SRResNet vs SRGAN
+  + RestNet and GAN both generate distribution that mimics that of the original and come out with something that is more visually pleasing and less blurry than the bicubic model.
+  + <img src="https://github.com/markostam/sandbox/blob/master/photos/Screenshot%202017-01-29%2017.51.38.png?raw=true" width="400">
