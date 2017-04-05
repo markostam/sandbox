@@ -65,6 +65,8 @@
 + used this bot using the Alexa SDK to create moviebot
 + DSL for interaction
 + very important to have a high-quality system end to end or the user will not come back. thus you will have no data.
+  [user retention vs. system quality](https://github.com/markostam/sandbox/blob/master/photos/IMG_3857.JPG?raw=true)
+
 + users don't care how it works, they want it to work.
 
 ## Potential Feedback Signals
@@ -80,13 +82,18 @@
 + 80% train, 20% de, 20% test
 + tried 13 ML methods (shpagett)
   + LSTM: simple lstm on word vectors on google word embeddings
-  + sropout 0.4
+  [simple LSTM sentiment architecture](https://github.com/markostam/sandbox/blob/master/photos/IMG_3858.JPG?raw=true)
+  + dropout 0.4
   + l1: 0.001
   + 128 dim word vecs
+  [performance of different ML things](https://github.com/markostam/sandbox/blob/master/photos/IMG_3861.JPG?raw=true)
 + looked at the two best ones to see if they were using the same data, to see if it's worth ensembling
   + looked at sentence distribution
   + looked at T-test between them LSTM vs. SVC
 + turns out T-test was similar between LSTM vs. SVC for positive intent and neutral
++ below: performance of best two: SVC vs. LSTM
+  [performance of different ML things](https://github.com/markostam/sandbox/blob/master/photos/IMG_3862.JPG?raw=true)
+  [performance of different ML things](https://github.com/markostam/sandbox/blob/master/photos/IMG_3863.JPG?raw=true)
 + LSTM ends up doing better on negative intent. maybe because LSTM takes into account long-range connections i.e. blah blah blah BUT blah blah. LSTM can look at the BUT.
 
 ## Creating a Reward Function
