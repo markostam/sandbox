@@ -83,12 +83,12 @@
 + target mapping (pos, neg, neutral)
 + 80% train, 20% de, 20% test
 + tried 13 ML methods (shpagett)
+![performance of different ML things](https://github.com/markostam/sandbox/blob/master/photos/IMG_3861.JPG?raw=true)
   + LSTM: simple lstm on word vectors on google word embeddings
   ![simple LSTM sentiment architecture](https://github.com/markostam/sandbox/blob/master/photos/IMG_3858.JPG?raw=true)
   + dropout 0.4
   + l1: 0.001
   + 128 dim word vecs
-  ![performance of different ML things](https://github.com/markostam/sandbox/blob/master/photos/IMG_3861.JPG?raw=true)
 + looked at the two best ones to see if they were using the same data, to see if it's worth ensembling
   + looked at sentence distribution
   + looked at T-test between them LSTM vs. SVC
