@@ -42,8 +42,9 @@
 ## Reinformcement Learning
 
 + reinforcement learning is a way to solve markov decision process without a model.
-+ [pigeon pushes the block to under the food - BF Skinner Foundation] (https://www.youtube.com/watch?v=ymkT_C_NWXw) 
++ [pigeon pushes the block to under the food - BF Skinner Foundation](https://www.youtube.com/watch?v=ymkT_C_NWXw) 
 + "feed the echo infinite data and and have it figure out how to best interact with users"
+![the single RL slide lol](https://github.com/markostam/sandbox/blob/master/photos/IMG_3851.JPG?raw=true)
 
 ### DATA
 
@@ -58,6 +59,7 @@
 + anaphora including indent carry over "how tall is brad pitt?" -> how about matt daemon
 + global search: what is the rating for inception?
 + currently fully *rule-based*
+![moviebot](https://github.com/markostam/sandbox/blob/master/photos/IMG_3852.JPG?raw=true)
 
 ### chicken and egg problem
 
