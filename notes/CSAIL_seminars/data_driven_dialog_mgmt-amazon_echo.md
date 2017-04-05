@@ -4,6 +4,12 @@
 + alborzg@amazon.com
 + With Amazon since 2013, lot of work on RL for amazon, Aeronautics and Astronautics PhD MIT, Postdoc MIT Information and Systems Multimodal MDP
 
+## Big Picture
+
+### This team is working only on Dialog Management
+
+![MDP equations](https://github.com/markostam/sandbox/blob/master/photos/IMG_3850.JPG?raw=true)
+
 ## Existing gaps
 + manual dialog: hand written rules
   + time consuming
@@ -14,6 +20,7 @@
 
 ## Markov Decision Process
 
+![MDP equations](https://github.com/markostam/sandbox/blob/master/photos/IMG_3849.JPG?raw=true)
 + (S,A,Pass,Rass,gamma)
 + pi(s): S -> A
   + st+1, rt
@@ -67,7 +74,7 @@
 + used this bot using the Alexa SDK to create moviebot
 + DSL for interaction
 + very important to have a high-quality system end to end or the user will not come back. thus you will have no data.
-  [user retention vs. system quality](https://github.com/markostam/sandbox/blob/master/photos/IMG_3857.JPG?raw=true)
+  ![user retention vs. system quality](https://github.com/markostam/sandbox/blob/master/photos/IMG_3857.JPG?raw=true)
 
 + users don't care how it works, they want it to work.
 
