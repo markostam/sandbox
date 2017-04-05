@@ -21,7 +21,7 @@
 ## Markov Decision Process
 
 ![MDP equations](https://github.com/markostam/sandbox/blob/master/photos/IMG_3849.JPG?raw=true)
-+ (S,A,Pssa,Rssa,gamma)
++ (S,A,Pss'a,Rss'a,gamma)
 + pi(s): S -> A
   + st+1, rt
 + Markovian assumption: "don't need ot know how we got here, sufficient to know we are here"
@@ -33,11 +33,11 @@
   + confirm
   + play something
   + say idk
-+ Pass
++ Pss'a
   + transition probability: not known!
   + distribution oer the next state (s') given the current state and action (s,a)
 + Dependent on the user ASR
-+ Rass
++ Rss'a
   + reward function: user satisfaction
   + evaluated manually or automatically (ideal) manually = amazon turk looking at stuff
   + examples of automatic: 
