@@ -21,7 +21,7 @@
 ## Markov Decision Process
 
 ![MDP equations](https://github.com/markostam/sandbox/blob/master/photos/IMG_3849.JPG?raw=true)
-+ (S,A,Pass,Rass,gamma)
++ (S,A,Pssa,Rssa,gamma)
 + pi(s): S -> A
   + st+1, rt
 + Markovian assumption: "don't need ot know how we got here, sufficient to know we are here"
