@@ -1,8 +1,10 @@
 # Dialog Action and Response at Amazon
 
++ Alborz Geramifard
 + alborzg@amazon.com
++ With Amazon since 2013, lot of work on RL for amazon, Aeronautics and Astronautics PhD MIT, Postdoc MIT Information and Systems Multimodal MDP
 
-## existing gaps
+## Existing gaps
 + manual dialog: hand written rules
   + time consuming
   + hard to debug
@@ -40,7 +42,7 @@
 ## Reinformcement Learning
 
 + reinforcement learning is a way to solve markov decision process without a model.
-+ pigeon pushes the block to under the food - BF Skinner Foundation
++ [pigeon pushes the block to under the food - BF Skinner Foundation] (https://www.youtube.com/watch?v=ymkT_C_NWXw) 
 + "feed the echo infinite data and and have it figure out how to best interact with users"
 
 ### DATA
